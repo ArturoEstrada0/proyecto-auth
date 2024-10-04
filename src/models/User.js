@@ -6,6 +6,11 @@ const UserSchema = new mongoose.Schema({
     required: [true, 'Por favor introduce un nombre'],
     trim: true,
   },
+  lastName: {
+    type: String,
+    required: [true, 'Por favor introduce un apellido'],
+    trim: true,
+  },
   email: {
     type: String,
     required: [true, 'Por favor introduce un email'],
